@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    height: 100vh;             
+    margin: 0;
+}
+#FormBox {
+    width: 450px;
+    height:500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+#buttonbox{
+    display:inline-block;
+    padding:10px;
+
+}
+#downloadbox{
+    display:inline-block;
+    padding:10px;
+}
+#inputbox{
+    padding:10px;
+}
+#codeBox{
+    width:180px;
+    height:180px;
+    border:1px solid black;
+    padding:10px;
+    margin: 0 auto;
+}
