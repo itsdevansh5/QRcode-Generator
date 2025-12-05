@@ -9,26 +9,47 @@ body {
     width: 450px;
     height:500px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid palevioletred;
     border-radius: 8px;
     text-align: center;
+    background-color: lightpink;
+    transition:box-shadow 0.2s;
+}
+#FormBox:hover{
+    box-shadow: 0 10px 20px rgba(229, 45, 51, 0.3);;
 }
 #buttonbox{
     display:inline-block;
     padding:10px;
+    background-color: lightpink;
 
 }
 #downloadbox{
     display:inline-block;
     padding:10px;
+    background-color: lightpink;
 }
 #inputbox{
     padding:10px;
+    background-color: lightpink;
 }
+
 #codeBox{
     width:180px;
     height:180px;
     border:1px solid black;
     padding:10px;
     margin: 0 auto;
+}
+*{
+    background-color: gainsboro;
+}
+h1{
+    background-color: lightpink;
+}
+#lb1{
+    background-color: lightpink;
+}
+#data{
+    background-color: white;
 }
